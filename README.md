@@ -2,6 +2,12 @@
 
 A grunt.js task to run your jasmine feature suite using jasmine-node.
 
+## Note
+
+Forked from https://github.com/jasmine-contrib/grunt-jasmine-node by @s9tpepper to include https://github.com/jasmine-contrib/grunt-jasmine-node/pull/46
+
+If that repo is actively maintained again then I will shut this one down.
+
 ## Getting Started
 Install this grunt plugin next to your project's grunt.js gruntfile with: `npm install grunt-jasmine-node`
 
@@ -27,7 +33,7 @@ grunt.initConfig({
   }
 });
 
-grunt.loadNpmTasks('grunt-jasmine-node');
+grunt.loadNpmTasks('grunt-jasmine-node-new');
 
 grunt.registerTask('default', ['jasmine_node']);
 ```
