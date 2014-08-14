@@ -4,12 +4,12 @@ A grunt.js task to run your jasmine feature suite using jasmine-node.
 
 ## Note
 
-Forked from https://github.com/jasmine-contrib/grunt-jasmine-node by @s9tpepper to include https://github.com/jasmine-contrib/grunt-jasmine-node/pull/46
+Forked from (unmaintained) https://github.com/jasmine-contrib/grunt-jasmine-node by @s9tpepper to include https://github.com/jasmine-contrib/grunt-jasmine-node/pull/46
 
 If that repo is actively maintained again then I will shut this one down.
 
 ## Getting Started
-Install this grunt plugin next to your project's grunt.js gruntfile with: `npm install grunt-jasmine-node`
+Install this grunt plugin next to your project's grunt.js gruntfile with: `npm install grunt-jasmine-node-new`
 
 Then add this line to your project's `Gruntfile.js` grunt file:
 
@@ -69,7 +69,7 @@ Help us squash them by submitting an issue that describes how you encountered it
 
 ## Release History
 
-see [GitHub Repository](/s9tpepper/grunt-jasmine-node).
+see [GitHub Repository](https://github.com/lennym/grunt-jasmine-node).
 
 ## License
 Copyright (c) 2012 "s9tpepper" Omar Gonzalez & contributors.
