@@ -41,7 +41,7 @@ module.exports = function (grunt) {
 
       if(options.coffee){
         options.extensions = 'js|coffee|litcoffee';
-        require('coffee-script');     
+        require('coffee-script/register');     
       }
       var regExpSpec = new RegExp(options.match + (options.matchall ? "" : options.specNameMatcher + "\\.") + "(" + options.extensions + ")$", 'i');
 

@@ -29,7 +29,7 @@
   "scripts": {},
   "dependencies": {
     "jasmine-node": "~1.14.5",
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.9.1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
